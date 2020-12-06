@@ -1,0 +1,30 @@
+@import 'variable.scss';
+
+.nav-board {
+	width: 1200px;
+	margin: 50px auto;
+
+	.nav-inner {
+		width: 800px;
+		height: 44px;
+		background-color: #fff;
+		border-radius: 10px;
+		box-shadow: 1px 3px 5px #ccc;
+
+		.nav-item {
+			float: left;
+			width: 160px;
+			height: 44px;
+			text-align: center;
+			line-height: 44px;
+
+			&.current {
+				.nav-lk {
+          color: $defaultColor;
+			  }
+			}
+
+			
+		}
+	}
+}

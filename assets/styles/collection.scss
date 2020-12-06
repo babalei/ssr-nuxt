@@ -1,0 +1,33 @@
+@import 'variable.scss';
+
+.collection-board {
+	width: 1200px;
+	margin: 40px auto 50px;
+
+	.collection-item {
+		width: 1234px;
+		margin: 0 0 20px -17px;
+
+		.course-item {
+      &:nth-child(1) {
+        width: 220px;
+        height: 204px;
+        line-height: 60px;
+        text-align: center;
+
+        .collection-tt {
+          margin-top: 40px;
+          font-size: 20px;
+          color: #fff;
+        }
+
+        .btn {
+          height: 40px;
+          padding: 0 10px;
+          font-size: 16px;
+          border-radius: 5px;
+        }
+      }
+    }
+	}
+}

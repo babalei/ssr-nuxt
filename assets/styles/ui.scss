@@ -1,0 +1,61 @@
+@import 'variable.scss';
+
+.input {
+	height: 40px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+
+	&.input-search {
+    transition: all .3s;
+
+		&:focus {
+			border-color: $defaultColor;
+			box-shadow: 0 0 3px $defaultColor;
+		}
+	}
+}
+
+.triangle-right {
+	display: block;
+	width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-left-width: 15px;
+  border-left-style: solid;
+}
+
+.btn {
+	display: inline-block;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+
+	&.btn-search {
+		background-color: $defaultColor;
+
+		&:hover {
+			background-color: $defaultHoverColor;
+		}
+	}
+
+	&.btn-success {
+		background-color: $successBgColor;
+    border-color: $successBdColor;
+
+    &:hover {
+			background-color: $successHoverBgColor;
+      border-color: $successHoverBdColor;
+		}
+	}
+
+	&.btn-info {
+		background-color: $infoBgColor;
+    border-color: $infoBdColor;
+
+    &:hover {
+			background-color: $infoHoverBgColor;
+      border-color: $infoHoverBdColor;
+		}
+	}
+}

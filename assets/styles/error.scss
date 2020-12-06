@@ -1,0 +1,22 @@
+@import 'variable.scss';
+
+.error-board {
+  padding: 300px 0;
+  text-align: center;
+	h1 {
+		font-size: 120px;
+		color: #999;
+	}
+
+	p {
+		margin-top: 20px;
+		font-size: 18px;
+		color: #999;
+
+		a {
+			color: $defaultColor;
+			font-weight: bold;
+			border-bottom: 1px solid $defaultColor;
+		}
+	}
+}
