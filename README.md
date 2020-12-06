@@ -1,4 +1,4 @@
-# meituan-mine
+# ssr-nuxt
 
 ## Build Setup
 
